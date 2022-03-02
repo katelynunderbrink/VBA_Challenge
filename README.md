@@ -21,20 +21,32 @@ Code Module 3 (Refactored Code)
 ![Code_refactored](https://user-images.githubusercontent.com/85354946/156438883-f81524fc-ca90-4cc6-aa34-7dd5241a0b4e.png)
 
 
-### Execution Times
-![![2017_refactored_time](https://user-images.githubusercontent.com/85354946/156414402-178f4189-4d36-4079-a83a-a066f9dd89c7.png)
-![2018_refactored_time](https://user-images.githubusercontent.com/85354946/156414466-1d5064b5-b7c8-41f1-8718-8cbe5b978bed.png)
-insert picture of original time 2017 ![2017_module1_code_run_time](https://user-images.githubusercontent.com/85354946/156437961-a0bc0eaa-fcf8-4758-924f-5a1e4e370d2f.png)
+The main change with the codes was to get rid of the nested For loop so that the code would not run through the For loops exponentially. By getting rid of the For loops and creating two separate loops, it ultimately reduced the amount of time. 
 
-insert picture of original time 2018![2018_module1_code_time](https://user-images.githubusercontent.com/85354946/156437819-d1eb4cdd-09d2-4d1d-86a9-ad627792d7ec.png)
+
+
+### Execution Times
+Code Module 1 (Original) Execution Time 2017
+
+![2017_module1_code_run_time](https://user-images.githubusercontent.com/85354946/156437961-a0bc0eaa-fcf8-4758-924f-5a1e4e370d2f.png)
+
+Code Module 1 (Original) Execution Time 2018
+
+![2018_module1_code_time](https://user-images.githubusercontent.com/85354946/156437819-d1eb4cdd-09d2-4d1d-86a9-ad627792d7ec.png)
+
+Code Module 3 (Refactored) Execution Time 2017
+
+![![2017_refactored_time](https://user-images.githubusercontent.com/85354946/156414402-178f4189-4d36-4079-a83a-a066f9dd89c7.png)
+
+Code Module 3 (Refactored) Execution Time 2018
+
+![2018_refactored_time](https://user-images.githubusercontent.com/85354946/156414466-1d5064b5-b7c8-41f1-8718-8cbe5b978bed.png)
+
 
 
 ## Summary
 ### Advantages of Refactoring
-If used on future projects with larger numbers of stocks it will be able to handle them better
-code can be recreated more simply; easier to understand by those viewing it-- this applies to the assignment because it was easier to understand 
-use less memory - run time was shorter
-learning how the code works - ability to go through line by line and understand how the code works
+The advantages of refactoring are that if this code is used on future projects with larger numbers of stocks it will be able to handle them better. The code can be recreated more simply so it is easier to understand by those viewing it. In this assignment, trying to follow a nested for loop is much more difficult than seeing the two separate loops. A refactored code can also use less memory which in this assignment specifically the run time was shorter. Lastly, by refactoring code you can learn how the code works and new techniques to improve your code that you can carry on in future coding. In this assignment, I had the ability to go through line by line and understand how the code works. It also presented me with an opportunity to work with my peers to solve a problem. 
+
 ### Disadvantages of Refactoring
-Time it takes to refactor - spent days/ hours on this assignment
-might create new errors or issues - debugging over and over. intially my outcomes did not match the original outcomes and i had to keep going back through and modifying
+A big disadvantage is the time it takes the coder to refactor. I spent hours on this assignment just trying to refactor the code. Additionally, refactoring might create new errors or issues and require debugging over and over. Intially my outcomes did not match the original outcomes and I had to keep going back through and modify until I got it right. 
